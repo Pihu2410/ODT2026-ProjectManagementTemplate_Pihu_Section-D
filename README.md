@@ -52,13 +52,13 @@ By the final review, this README should clearly show:
 # 1. Team Identity
 
 ## 1.1 Studio / Group Name
-`[Enter your group name]`
+`TBD`
 
 ## 1.2 Team Members
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `[Student 1]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `Pihu Pant` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
 | `[Student 2]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
 
 ## 1.3 Project Title
