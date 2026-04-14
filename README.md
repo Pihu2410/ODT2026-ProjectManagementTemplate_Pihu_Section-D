@@ -52,7 +52,7 @@ By the final review, this README should clearly show:
 # 1. Team Identity
 
 ## 1.1 Studio / Group Name
-`TBD`
+`Schizophrenic Hat Maker`
 
 ## 1.2 Team Members
 
@@ -61,7 +61,7 @@ By the final review, this README should clearly show:
 | `Pihu Pant` | `Coding + App + Fabrication` | `Electronics + Mechanics` | `[Write here]` |
 
 ## 1.3 Project Title
-`[Enter the title of your project]`
+`[The Sorting Hat]`
 
 ## 1.4 One-Line Pitch
 `[Describe your project in one sentence]`
