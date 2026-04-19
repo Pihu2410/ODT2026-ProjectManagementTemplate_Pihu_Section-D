@@ -64,7 +64,7 @@ By the final review, this README should clearly show:
 `[The Sorting Hat]`
 
 ## 1.4 One-Line Pitch
-`[Describe your project in one sentence]`
+`[An enchanted animatronic Sorting Hat that uses the art of Divination and embedded robotics to ceremonially place young wizards into their Hogwarts houses.]`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -74,7 +74,7 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[Write here]`
+`[Growing up, I loved Harry Potter! I've read all the books and rewatched all the movies about 10 times already. And the one character that fascinated me the most was none other than the iconic Sorting Hat. So, having been given the brief for the ODT project, I decided to make it. But, with a twist... I worked on creating a functioning animatronic version of the infamous Sorting Hat that can actually sort people into their Hogwarts houses. I had seen so many toys of the sorting hat when I was younger, I used to be so intrigued, so I thought that making one, which actually interacted with users and created a similar experience for them, would create such an amazing experience for them]`
 
 ---
 
