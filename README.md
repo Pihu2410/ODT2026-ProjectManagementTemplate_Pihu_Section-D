@@ -760,7 +760,7 @@ What did you learn about:
 What would you improve next?
 
 **Response:**  
-`[Write here]`
+`[If I had been given one more week to work on the project, I would've tried to make the hat entirely wearable, along with that, I think, I would want to explore making the base wia 3D printing, which would have made the structure easier to handle and sturdier.]`
 
 ---
 
