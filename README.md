@@ -171,10 +171,7 @@ Describe exactly how a player will use the project.
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `[Rule 1]`
-- `[Rule 2]`
-- `[Rule 3]`
-- `[Rule 4]`
+- `[My artefact is not a game, its rather an experience. The only specification there is is that the app requires one's name and date of birth to sort him/her to a Hogwarts House.]`
 
 ---
 
@@ -183,24 +180,23 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[Condition 1]`
-- [ ] `[Condition 2]`
-- [ ] `[Condition 3]`
-- [ ] `[Condition 4]`
-- [ ] `[Condition 5]`
+- [ ] `[The servo mothers show movement about the facial expressions of the hat.]`
+- [ ] `[The app is able to calculate the life path number and the destiny number from the name and date of birth of the person.]`
+- [ ] `[The voice of the sorting hat is mostly accurate.]`
+- [ ] `[All these features intrigue people into coming to experience the exhibit.]`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
 
 **Response:**  
-`[Write here]`
+`[The smallest version of theproject, in my opinion, can be a cone with a slit as the mouth and one servo motor to communicate the same experience, with a simple app having a button which keeps saying iconic sorting hat sayings.]`
 
 ## 5.3 Stretch Features
 What features are nice to have but not essential?
 
-- `[Stretch feature 1]`
-- `[Stretch feature 2]`
-- `[Stretch feature 3]`
+- `[LED lights (which I was planning earlier).]`
+- `[Taking the a picture or face scanning in the app.]`
+- `[The small downloadable card/certificate at the end of the sorting.]`
 
 ---
 
@@ -209,18 +205,18 @@ What features are nice to have but not essential?
 ## 6.1 Project Type
 Check all that apply.
 
-- [ ] Electronics-based
-- [ ] Mechanical
+- [✅] Electronics-based
+- [✅] Mechanical
 - [ ] Sensor-based
-- [ ] App-connected
-- [ ] Motorized
-- [ ] Sound-based
+- [✅] App-connected
+- [✅] Motorized
+- [✅] Sound-based
 - [ ] Light-based
-- [ ] Screen/UI-based
+- [✅] Screen/UI-based
 - [ ] Fabricated structure
 - [ ] Game logic based
 - [ ] Installation / tabletop experience
-- [ ] Other: `[Write here]`
+- [✅] Other: `[Experience based artefacty]`
 
 ## 6.2 High-Level System Description
 Explain how the system works in simple terms.
@@ -233,16 +229,16 @@ Include:
 - app interaction if any.
 
 **Response:**  
-`[Write here]`
+`The Sorting Hat is an animatronic system. The ESP32 microcontroller runs a MicroPython script that processes a pre-defined sequence of servo angles in a timed loop. It outputs movement across five servo motors controlling the mouth, eyes, and tip of the hat, producing expressive, lifelike animation for two minutes before resetting. There is also an app that sorts you into houses based on your Name and Birth date input. The system calculates your life path number and your destiny number, based on which we get assigned character traits. These traits get configured according to the 4 hogwart's houses.`
 
 ## 6.3 Input / Output Map
 
 | System Part | Type | What It Does |
 |---|---|---|
-| `[Button / Sensor / Switch / App Input]` | Input | `[Describe]` |
-| `[ESP32 / Controller]` | Processing | `[Describe]` |
-| `[LED / Motor / Servo / Buzzer / Display]` | Output | `[Describe]` |
-| `[Mechanical Assembly]` | Physical Action | `[Describe]` |
+| `[Name and Age Input in app]` | Input | `[Used to calculate the life path number and the destiny number]` |
+| `[ESP32 / Controller]` | Processing | `[Acts like the brain of the circuit, which basically commands other components to function a certain way - for me, it was connected to process input and output from the app and the servo motors, respectively.]` |
+| `[Servo]` | Output | `[The up and down motion of the mouth, eyes and tip of the hat s it rotates from 0 deg to 180 deg.]` |
+| `[Mechanical Assembly]` | Physical Action | `[The back and forth motion of the mouth, eyes and hat tip using the servo motors, while the app speaks and takes the name and age input of the participant to start the corting process.]` |
 
 ---
 
@@ -554,9 +550,9 @@ Include:
 
 ### Week 1 — Plan and De-risk
 Expected outcomes:
-- [ ] Idea finalized
-- [ ] Core interaction decided
-- [ ] Sketches made
+- [done] Idea finalized
+- [done] Core interaction decided
+- [done] Sketches made
 - [ ] BOM completed
 - [ ] Purchase needs identified
 - [ ] Key uncertainty identified
@@ -622,27 +618,27 @@ What is the single biggest uncertainty in your project at this stage?
 
 | What Needs Testing | How You Will Test It | Success Condition |
 |---|---|---|
-| `[Bluetooth connection]` | `[Method]` | `[What counts as success?]` |
-| `[Mechanism movement]` | `[Method]` | `[What counts as success?]` |
-| `[Sensor behavior]` | `[Method]` | `[What counts as success?]` |
-| `[App communication]` | `[Method]` | `[What counts as success?]` |
+| `[Bluetooth connection]` | `[N/A]` | `[N/A]` |
+| `[Mechanism movement]` | `[I'll test it by testing one of the servo joints. Then 3 together and then all 5 together.]` | `[If all 5 servos move together, I would count that as a success because the angle at which they rotate is something I can adjust.]` |
+| `[Sensor behavior]` | `[N/A]` | `[N/A]` |
+| `[App communication]` | `[In my case, I would connect the app to the ESP32 via WiFi, and to verify, we'll first check by establishing a connection and running a code for the WiFi connection. Then we can establish a connection using the static IP address of the ESP32.]` | `[If a simple function can be carried out through the app and to the ESP32, then I would consider a success.]` |
 
 ## 16.2 Playtesting Plan
 
 | Question | How You Will Check |
 |---|---|
-| Do players understand what to do? | `[Method]` |
-| Is the interaction satisfying? | `[Method]` |
-| Do players want another turn? | `[Method]` |
-| Is the challenge balanced? | `[Method]` |
-| Is the response clear and immediate? | `[Method]` |
+| Do players understand what to do? | `[N/A]` |
+| Is the interaction satisfying? | `[I would observe the level of intrigue in the their actions, their facial expressions and their body language around the experience and alos while they are experiencing it.]` |
+| Do players want another turn? | `[If they disagree with the verdict of the sorting hat, I would assume they would want to try it again.]` |
+| Is the challenge balanced? | `[N/A]` |
+| Is the response clear and immediate? | `[If they immediately start reacting to the different aspects of the experience, I would say that the response becomes clear.]` |
 
 ## 16.3 Testing and Debugging Log
 
 | Date | Problem Found | Type | What You Tried | Result | Next Action |
 |---|---|---|---|---|---|
-| `[April 9th, 2026]` | `[While making the layered portion of the sorting hat, I tried to hold it up, but my measurements were worng and I had messed up yhe radius of the different conical portions which were to be stacked up.]` | `[Technical / Mechanical / UI / Gameplay]` | `[What you did]` | `[Worked / Partly / Failed]` | `[Next step]` |
-| `[Date]` | `[Describe issue]` | `[Type]` | `[What you did]` | `[Result]` | `[Next step]` |
+| `[April 9th, 2026]` | `[While making the layered portion of the sorting hat, I tried to hold it up, but my measurements were worng and I had messed up yhe radius of the different conical portions which were to be stacked up.]` | `[Mechanical]` | `[I stacked and slotted it in a way which helped it the structure balance more, yet still look just as crooked and whimsical.]` | `[Worked]` | `[After that, I stuck the cardboard circular servo bases inside the conicalstructures.]` |
+| `[April 18th, 2026 - April 19th, 2026]` | `[As I was making the app, I kept coming across an error where the placement of the components were very off and I couldn't find my way around it.]` | `[UI]` | `[Entirely changed the way I was making the app. Instead of using the classic MIT App Inventor, I decided to use Google AI Studio.]` | `[The app came out better than ever]` | `[I tried to connect the app to the ESP32, but it didn't work.]` |
 
 ## 16.4 Playtesting Notes
 
@@ -685,7 +681,7 @@ Suggested images:
 Example:
 ```md
 
-
+-
 
 ```
 
