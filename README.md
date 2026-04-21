@@ -74,7 +74,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[Growing up, I loved Harry Potter! I've read all the books and rewatched all the movies about 10 times already. And the one character that fascinated me the most was none other than the iconic Sorting Hat. So, having been given the brief for the ODT project, I decided to make it. But, with a twist... I worked on creating a functioning animatronic version of the infamous Sorting Hat that can actually sort people into their Hogwarts houses. I had seen so many toys of the sorting hat when I was younger, I used to be so intrigued, so I thought that making one, which actually interacted with users and created a similar experience for them, would create such an amazing experience for them]`
+`[Growing up, I loved Harry Potter! I've read all the books and rewatched all the movies about 10 times already. And the one character that fascinated me the most was none other than the iconic Sorting Hat. So, having been given the brief for the ODT project, I decided to make it. But, with a twist... I worked on creating a functioning animatronic version of the infamous Sorting Hat that can actually sort people into their Hogwarts houses. I had seen so many toys of the sorting hat when I was younger. I used to be so intrigued, so I thought that making one, which actually interacted with users and created a similar experience for them, would create such an amazing memory and a sense of childhood connection for them.
+What makes it fun is the sheer theatricality of it — a hat that physically moves and dramatically "predicts" your destiny for you. It feels alive. A hat with opinions and a personality defies expectations and imagination alike. The combination of physical motion from the servos, the sound, and a reveal moment from the app is what makes this experience and idea intriguing and satisfying. This, layered with the nostalgia of getting a Harry Potter experience (or something similar), is what increases the enjoyment of it.
+The SG90 servos move the hat's mouth and head. The LM2596 and/or the DC Power Supply converts the input power down to a clean 5V to keep them running smoothly. Whereas an ESP32 controls the timing and triggers the movement of the motors at some certain degrees. The app keeps announcing the houses and as people keep on feeding their data into the app.]`
 
 ---
 
@@ -100,7 +102,7 @@ Answer the following:
 - Why would someone want to try it again?
 
 **Response:**  
-`[Write here]`
+`[I want to create a fun and immersive experience which instills a sense of nostalgia in the participant when they use the app to get sorted and the actual app-paired sorting hat announces their house. I want every Potterhead to feel like they lived out a childhood dream when participating in this sorting activity. I think the idea of getting a Hogwarts house, one which one might not even expect, will make them want to try this activity again and again, to get the house they wish for, even if it doesn't work.]`
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -108,7 +110,7 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[Write here]`
+`[I am designing this project as if I am part of a small creative studio making an interactive ecperience for all age groups who love Harry Potter, or don't but are just interested in this whimsical experience.]`
 
 ---
 
@@ -119,15 +121,14 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `[Video]` | `[[Link or title]](https://www.instructables.com/Full-Animatronic-Sorting-Hat-With-Custom-Software/)` | `[I borrowed or learned from the animatronic part of this existing project.]` |
+| `[Video / Object]` | `[(https://www.instagram.com/reel/DXGUjeEEm3r/?igsh=MTNmbHJxYWE4ejZzOQ%3D%3D&wa_logging_event=video_play_open)]` | `[I kind of got inspired to lay the cloth layered on top of the basic structure of the animatronic.]` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[Write here]`
+`[Most sorting hat experiences are purely digital or purely physical. This one connects both — a phone app collects your name and date of birth, calculates your numerology life path number and destiny number, and that result determines your house, mixing a little bit of the art of Divination. The hat then speaks along with the app's content as the app sorts the person to their respective house. Another original feature that I decided to incorporate is that invisible connection between a number derived from your actual birth details and a physical object that reacts to it, making the experience feel genuinely personal and rather intriguing.]`
 
 ---
 
@@ -640,15 +641,15 @@ What is the single biggest uncertainty in your project at this stage?
 
 | Date | Problem Found | Type | What You Tried | Result | Next Action |
 |---|---|---|---|---|---|
-| `[Date]` | `[Describe issue]` | `[Technical / Mechanical / UI / Gameplay]` | `[What you did]` | `[Worked / Partly / Failed]` | `[Next step]` |
+| `[April 9th, 2026]` | `[While making the layered portion of the sorting hat, I tried to hold it up, but my measurements were worng and I had messed up yhe radius of the different conical portions which were to be stacked up.]` | `[Technical / Mechanical / UI / Gameplay]` | `[What you did]` | `[Worked / Partly / Failed]` | `[Next step]` |
 | `[Date]` | `[Describe issue]` | `[Type]` | `[What you did]` | `[Result]` | `[Next step]` |
 
 ## 16.4 Playtesting Notes
 
 | Tester | What They Did | What Confused Them | What They Enjoyed | What You Will Change |
 |---|---|---|---|---|
-| `[Peer / friend / classmate]` | `[Observation]` | `[Observation]` | `[Observation]` | `[Action]` |
-| `[Peer / friend / classmate]` | `[Observation]` | `[Observation]` | `[Observation]` | `[Action]` |
+| `[Senior]` | `[They all asked if they had to wear it on their head to be sorted]` | `[How was the hat going to moving.]` | `[THey were excited to be sorted and really intrigued by the fact that the hat was moving via code.]` | `[I will try to make it wearable since it is not currently wearable.]` |
+| `[Peer]` | `[They saw the skeleton of the hat and asked if I was making the sorting hat]` | `[How did it work?]` | `[It moves like the actual hat and you can get sorted into a house]` | `[I think I'll change some of the servo placements and might even increase the proportions of the hat itself to add more room for movement for the servos.]` |
 
 ---
 
@@ -667,7 +668,8 @@ Include:
 - revisions.
 
 **Response:**  
-`[Write here]`
+`[I experimented with making the base using corrugated cardboard, which did not prove to be useful. I then made the base with thick chart paper, and this became my base model. Here, I made the servo bases with cardboard, where I stuck the servo motors. Then for the servo joints, for the free movement within the sorting hat, I used the plastic sketch pen and marker barrels, which I then fixed to the servo with screws. This is when my base model was ready.
+Then, I covered the hat with white musline cloth, which I then painted with brown and black paint to give more of the sorting hat look.]`
 
 ## 17.2 Build Photos
 Add photos throughout the project.
@@ -691,9 +693,10 @@ Example:
 
 | Version | Date | What Changed | Why |
 |---|---|---|---|
-| `v1` | `[Date]` | `[Describe]` | `[Reason]` |
-| `v2` | `[Date]` | `[Describe]` | `[Reason]` |
-| `v3` | `[Date]` | `[Describe]` | `[Reason]` |
+| `Sorting hat combined with the app` | `[April 9th, 2026]` | `[Decided to add leds after a while which would flash the different colours of the houses while being sorted]` | `[I thought it would look cool as someone gets sorted as the hat's eyes reflect the colour of their houses.]` |
+| `LED version` | `[April 15th, 2026]` | `[Ditched the LEDs in the eyes idea.]` | `[I actually forgot about them, and I had made most of the circuit connections by then. But the issue I understood was that there would be 8 LEDs in the eye cavity where the servo motors are also present - the LEDs might interfere with their movement]` |
+| `Might not even make it` | `[April 19th 2026` | `[I might not be able to make my project anymore.]` | `[The Power module caught fire, the ESP32 got corrupted, and my servo motors stopped working.]` |
+| `We can do this` | `[April 20th 2026 - April 21st, 2026` | `[I gave it a few more goes, while aslo asking for moy friend's power supply, and buying myself a buck converter and an ESP32.]` | `[I realised that I couldn't let go of the project I had been working so hard for in the last few weeks, so I decided to retrace my steps and start over. And in exactly 24 hours with 50+ hours of now sleep, I had finally made my sorting had and the app.]` |
 
 ---
 
@@ -703,23 +706,24 @@ Example:
 Describe the final version of your project.
 
 **Response:**  
-`[Write here]`
+`[Right now, my project is an animatronic Sorting Hat from Harry Potter, which, when code runs, moves its 5 servo motors to mimic the hat's talking mechanism. Then, its partner app is where it scans the face and says some very iconic sorting hat dialogues in that deep, gravelly voice we all know so well. After the picture gets scanned, we put in our name, and our date of birth and the app calculates the life path number and the destiny number, which gives certain characteristics to people, and these characteristics correspond to the sorting of the houses. After the sorting is done, there is a certificate of sorts, which we can read for download for ourselves.]`
 
 ## 18.2 What Works Well
-- `[Point 1]`
-- `[Point 2]`
-- `[Point 3]`
+- `[The way the hat is structured and coloured works nicely.]`
+- `[The movement of the servo motors create a good mimicking action of the sorting hat's talking.]`
+- `[The buck convertor works well with heavy structures like these.]`
 
 ## 18.3 What Still Needs Improvement
-- `[Point 1]`
-- `[Point 2]`
-- `[Point 3]`
+- `[The 5 servo system moving the hat needs to be planned and placed better.]`
+- `[The connection between the app and the hat can be established more efficiently ]`
+- `[The assembly and colour of the hat itself can be improved.]`
 
 ## 18.4 What Changed From the Original Plan
 How did the project change from the initial idea?
 
 **Response:**  
-`[Write here]`
+`[Initially, the app and the hat would have been part of one single system, but due to constant challenges with my ESP32 not being able to connect with the app, and the issues with my power supply module, I separated the system into layers and validated them independently, which changed the course of my project but also kept its essence intact.
+]`
 
 ---
 
@@ -731,7 +735,7 @@ What slowed you down?
 How well did you manage time, tasks, and responsibilities?
 
 **Response:**  
-`[Write here]`
+`[My teammate and I mutually decided that we wanted to work on different projects, so working alone meant I was responsible for every decision, which was both freeing and overwhelming at times. There was no one to split tasks with when things went wrong, so debugging, fabrication, and coding all fell on me simultaneously. Internalised crashouts became a normal occurrence when working on the project. Time management suffered as a result, underestimating how long physical assembly would take, consistently eating into the time I'd planned for testing, debugging, and refinement.]`
 
 ## 19.2 Technical Reflection
 What did you learn about:
@@ -742,7 +746,7 @@ What did you learn about:
 - integration?
 
 **Response:**  
-`[Write here]`
+`[This project taught me that servo electronics are far more sensitive than expected, with small wiring inconsistencies causing unpredictable behaviour, and ultimately, sudden crashes. Writing clean, structured MicroPython made debugging much easier. And mechanically mounting servos inside a fabric hat required more precision than anticipated. Fabrication involved constant compromises, and integrating all five components revealed that nothing works in isolation — every layer affects the next, and then ultimately the final submission.]`
 
 ## 19.3 Design Reflection
 What did you learn about:
@@ -754,7 +758,7 @@ What did you learn about:
 - iteration?
 
 **Response:**  
-`[Write here]`
+`[Working on the Sorting Hat taught me that physical interaction has real consequences (good and bad) that code alone can't predict, servo calibration and my ESP32 catching fire being the clearest examples. But the moment servos showed combined movements, it brought so much joy and relief to see how something that seemed impossible a second ago became something I overcame with a few syntax changes. This relief brings clarity, and it then leads to iteration, which is where most real design decisions happen. Here, designing for play ultimately means making something feel alive, not just functional.]`
 
 ## 19.4 If You Had One More Week
 What would you improve next?
