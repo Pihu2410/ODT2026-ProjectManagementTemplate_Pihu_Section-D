@@ -144,23 +144,23 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`[Write here]`
+`User → App → ESP32 → Servo movement + audio response`
 
 ## 4.2 Intended Player / Audience
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Write here]` |
-| Age range | `[Write here]` |
-| Solo or multiplayer | `[Write here]` |
-| Expected duration of one round | `[Write here]` |
-| What should the player feel? | `[Write here]` |
-| Is explanation required before use? | `[Write here]` |
+| Who is this for? | `[All potterheads who wish to experience the magic they've only witnessed on book pages and movie screens. Non-potterheads are also welcome.]` |
+| Age range | `[For all]` |
+| Solo or multiplayer | `[Solo]` |
+| Expected duration of one round | `[1-2 minutes]` |
+| What should the player feel? | `[The player should feel joy, amused and amazed to see the animatronic setup]` |
+| Is explanation required before use? | `[It is required to be mentioned before hand that the Sorting Hat will sort on the basis of their name and date of birth.]` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[How does the player first encounter it?]`
+1. **Approach:** `[The player gets intrigued by the moving anim]`
 2. **Start:** `[How do they begin?]`
 3. **First Action:** `[What do they do first?]`
 4. **Main Interaction:** `[What keeps happening during use?]`
