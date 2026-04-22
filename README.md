@@ -368,8 +368,8 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Tool / Platform | Purpose |
 |---|---|
-| `[MicroPython / Arduino / MIT App Inventor / CAD tool / other]` | `[Purpose]` |
-| `[Tool]` | `[Purpose]` |
+| `[MicroPython]` | `[To make the animatronic function and perform the tasks I want it to perform.]` |
+| `[Google AI Studio]` | `[To make the app I want to connect to the sorting hat where the sorting hat acts as the sound output.]` |
 
 ## 10.2 Software Logic
 Describe what the code must do.
