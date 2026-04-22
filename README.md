@@ -248,7 +248,8 @@ Include:
 Add an early sketch of the full idea.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[<img width="847" height="1447" alt="WhatsApp Image 2026-04-22 at 01 29 25 (1)" src="https://github.com/user-attachments/assets/29bf7615-cffb-4c63-bc06-34e9d446ccb4" />
+]`
 
 Example:
 ```md
@@ -264,16 +265,16 @@ Add a sketch with labels showing:
 - output elements.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[<img width="1599" height="899" alt="WhatsApp Image 2026-04-14 at 10 51 16" src="https://github.com/user-attachments/assets/36721383-73fc-4237-9e20-32f68c59176d" />]`
 
 ## 7.3 Approximate Dimensions
 
 | Dimension | Value |
 |---|---|
-| Length | `[Write here]` |
-| Width | `[Write here]` |
-| Height | `[Write here]` |
-| Estimated weight | `[Write here]` |
+| Length | `[25-35cm]` |
+| Width | `[12-15 cm]` |
+| Height | `[20-30 cm]` |
+| Estimated weight | `[~900 gms]` |
 
 ---
 
@@ -285,7 +286,7 @@ Check all that apply.
 - [ ] Gears
 - [ ] Pulleys
 - [ ] Belt drives
-- [ ] Linkages
+- [✅] Linkages
 - [ ] Hinges
 - [ ] Shafts
 - [ ] Springs
@@ -299,7 +300,7 @@ Check all that apply.
 Describe the mechanism and what it is meant to do.
 
 **Response:**  
-`[Write here]`
+`[The mechanism in the sorting hat is a system of 5 servo motors, which upon running the code, rotate simulaneously at different angles and differenet intervals of time to mimick the movement of the infamouse talking hat from Harry Potter.]`
 
 ## 8.3 Motion Planning
 If something moves, explain:
@@ -310,21 +311,21 @@ If something moves, explain:
 - what could go wrong.
 
 **Response:**  
-`[Write here]`
+`[Claude responded: Five servo motors move within the hat — two controlling the mouth, two for the eyes, and one for the tip.Five servo motors move within the hat — two controlling the mouth, two for the eyes, and one for the tip. Each servo is driven by PWM signals from the ESP32, which vary the pulse width to rotate the horn to a target angle. Movement is constrained between roughly 45° and 135°, keeping all servos well within their safe mechanical range. Each frame executes in 250 milliseconds, giving the motion a deliberate, expressive pace rather than snapping instantly. Things that could go wrong include a servo binding against the fabric interior, duty cycle values drifting slightly on different hardware causing unintended strain, or the hat's physical structure resisting movement if mounting points shift — all of which could cause a servo to stall, overheat, or strip its gears over time.]`
 
 ## 8.4 Simulation / CAD / Animation Before Making
 If your project includes mechanical motion, document the digital planning before fabrication.
 
 | Tool Used | File / Link | What Was Tested |
 |---|---|---|
-| `[Fusion 360 / Tinkercad / other]` | `[Link or screenshot]` | `[What did you validate?]` |
-| `[Tool]` | `[Link or screenshot]` | `[What did you validate?]` |
+| `[Phyiscal - Wooden scewers and ice cream sticks]` | `[N/A]` | `[To test the links/joints to be added to the servo motors]` |
+| `[N/A]` | `[N/a]` | `[What did you validate?]` |
 
 ## 8.5 Changes After Digital Testing
 What changed after the CAD, animation, or simulation stage?
 
 **Response:**  
-`[Write here]`
+`[Not a lot changed after the testing, it just validated my approach and made it less difficult for me to execute it on the real model.]`
 
 ---
 
@@ -335,14 +336,14 @@ What changed after the CAD, animation, or simulation stage?
 | Component | Quantity | Purpose |
 |---|---:|---|
 | `[ESP32]` | `1` | `[Main controller]` |
-| `[Component]` | `[Qty]` | `[Purpose]` |
-| `[Component]` | `[Qty]` | `[Purpose]` |
+| `[Power Supply]` | `[1]` | `[12V to 5 V supply]` |
+| `[Servo Motors]` | `[5]` | `[To make the Animatronic move. ]` |
 
 ## 9.2 Wiring Plan
 Describe the main electrical connections.
 
 **Response:**  
-`[Write here]`
+`[Each servo has three wires, power, ground, and signal. All five servo power wires connect to a shared 5V supply, and all ground wires share a common ground with the ESP32. The signal wire of each servo connects to its own dedicated GPIO pin (13, 14, 25, 26, and 27), allowing the ESP32 to control each servo independently by sending PWM pulses down that wire.]`
 
 ## 9.3 Circuit Diagram
 Insert a hand-drawn or software-made circuit diagram.
@@ -354,10 +355,10 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Question | Response |
 |---|---|
-| Power source | `[USB / battery / adapter / other]` |
-| Voltage required | `[Write here]` |
-| Current concerns | `[Write here]` |
-| Safety concerns | `[Write here]` |
+| Power source | `[ESP32 - USB + 5V Power supply - Adaptor]` |
+| Voltage required | `The servo motors require 5V to move independently]` |
+| Current concerns | `[Because of the use of a 12 V adaptor and a power suplly/even a buck convertor, using 5 servos simultaneously could lead to insuficient current supply.]` |
+| Safety concerns | `[If powered on for too long, the power supply module can get fried/broken. If we keep testing servos again and again, the servos can max out and not work properly on the day of the exhibition.]` |
 
 ---
 
@@ -550,9 +551,9 @@ Include:
 
 ### Week 1 — Plan and De-risk
 Expected outcomes:
-- [done] Idea finalized
-- [done] Core interaction decided
-- [done] Sketches made
+- [ ] Idea finalized
+- [ ] Core interaction decided
+- [ ] Sketches made
 - [ ] BOM completed
 - [ ] Purchase needs identified
 - [ ] Key uncertainty identified
@@ -683,7 +684,23 @@ Example:
 
 -
 
-```
+```<img width="847" height="1447" alt="WhatsApp Image 2026-04-22 at 01 29 25 (1)" src="https://github.com/user-attachments/assets/3e39ab16-bab8-4a8b-bd6c-d8b59b0b0760" />
+<img width="1600" height="1082" alt="WhatsApp Image 2026-04-22 at 01 29 25" src="https://github.com/user-attachments/assets/13ce9e1e-e7d5-4d95-a97c-66cf6fc20d52" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-04-22 at 01 43 03" src="https://github.com/user-attachments/assets/9d2b0a03-b4d7-4fd2-b4a2-e9793e7e8368" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-04-22 at 01 43 03 (2)" src="https://github.com/user-attachments/assets/5002d6c7-0f3a-4fd8-b351-133e3ab7c4f3" />
+<img width="900" height="1600" alt="WhatsApp Image 2026-04-22 at 01 43 03 (1)" src="https://github.com/user-attachments/assets/b4aca397-cebf-4665-84d0-69d93e40bc33" />
+<img width="900" height="1600" alt="WhatsApp Image 2026-04-22 at 01 43 02" src="https://github.com/user-attachments/assets/0a7c6488-ed5f-4c2d-b3f7-eda5b257ab3f" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-04-22 at 01 43 02 (3)" src="https://github.com/user-attachments/assets/3090d629-b3c1-4620-9912-9ae3aec841fa" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-04-22 at 01 43 02 (2)" src="https://github.com/user-attachments/assets/ff535ecc-cbf9-4526-a955-48f289694626" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-04-22 at 01 43 02 (1)" src="https://github.com/user-attachments/assets/c954a4bb-6270-47af-83d1-f1e9824ca267" />
+<img width="900" height="1600" alt="WhatsApp Image 2026-04-22 at 01 43 01" src="https://github.com/user-attachments/assets/910eb253-fdc5-431e-97c9-3501bdfcebe1" />
+<img width="1600" height="900" alt="WhatsApp Image 2026-04-22 at 01 43 01 (2)" src="https://github.com/user-attachments/assets/ff09c79f-1d58-4c83-9f69-9acb003c5f65" />
+<img width="900" height="1600" alt="WhatsApp Image 2026-04-22 at 01 43 01 (1)" src="https://github.com/user-attachments/assets/d78298a3-6dec-40ab-b068-c032c2c2f991" />
+<img width="900" height="1600" alt="WhatsApp Image 2026-04-22 at 01 43 00" src="https://github.com/user-attachments/assets/068cf913-7fd4-4a9b-b096-b33a2f5b7413" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-04-22 at 01 42 59" src="https://github.com/user-attachments/assets/885054c6-04dc-4ed5-89d3-c24f94f54b6a" />
+<img width="1600" height="900" alt="WhatsApp Image 2026-04-22 at 01 42 59 (2)" src="https://github.com/user-attachments/assets/0aaf84d2-cd6e-4fcd-8ca2-0f60847f9610" />
+<img width="900" height="1600" alt="WhatsApp Image 2026-04-22 at 01 42 59 (1)" src="https://github.com/user-attachments/assets/0fff8060-26dc-461c-a325-308f7d0dd1b6" />
+
 
 ## 17.3 Version History
 
