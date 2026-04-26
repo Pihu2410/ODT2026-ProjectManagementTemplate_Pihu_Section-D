@@ -709,7 +709,7 @@ Example:
 | `Sorting hat combined with the app` | `[April 9th, 2026]` | `[Decided to add leds after a while which would flash the different colours of the houses while being sorted]` | `[I thought it would look cool as someone gets sorted as the hat's eyes reflect the colour of their houses.]` |
 | `LED version` | `[April 15th, 2026]` | `[Ditched the LEDs in the eyes idea.]` | `[I actually forgot about them, and I had made most of the circuit connections by then. But the issue I understood was that there would be 8 LEDs in the eye cavity where the servo motors are also present - the LEDs might interfere with their movement]` |
 | `Might not even make it` | `[April 19th 2026` | `[I might not be able to make my project anymore.]` | `[The Power module caught fire, the ESP32 got corrupted, and my servo motors stopped working.]` |
-| `We can do this` | `[April 20th 2026 - April 21st, 2026` | `[I gave it a few more goes, while aslo asking for moy friend's power supply, and buying myself a buck converter and an ESP32.]` | `[I realised that I couldn't let go of the project I had been working so hard for in the last few weeks, so I decided to retrace my steps and start over. And in exactly 24 hours with 50+ hours of now sleep, I had finally made my sorting had and the app.]` |
+| `We can do this` | `[April 20th 2026 - April 21st, 2026` | `[I gave it a few more goes, while aslo asking for moy friend's power supply, and buying myself a buck converter and an ESP32.]` | `[I realised that I couldn't let go of the project I had been working so hard for in the last few weeks, so I decided to retrace my steps and start over. And in exactly 24 hours with 50+ hours of now sleep, I had finally made my sorting had and the app.]
 
 ---
 
